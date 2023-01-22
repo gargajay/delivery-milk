@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1070004515182",
+    "project_id": "localroots-da508",
+    "storage_bucket": "localroots-da508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070004515182:android:0b89eaa3fcca0897de517f",
+        "android_client_info": {
+          "package_name": "com.u6amtech.grocery_delivery_boy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070004515182-1vlu3vpthh72m4kreabj7qo4fs8vhhv7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOa_X6_f9_eVGG50i3UfAKJz9pC51QlOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070004515182-1vlu3vpthh72m4kreabj7qo4fs8vhhv7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1070004515182-eo2r1396s6cv06f42el6c4oobnsarbt6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.6amtech.emarketDeliveryBoy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
