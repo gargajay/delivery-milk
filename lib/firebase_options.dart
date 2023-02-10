@@ -10,26 +10,23 @@ import 'package:flutter/foundation.dart'
 /// ```dart
 /// import 'firebase_options.dart';
 /// // ...
-// await Firebase.initializeApp(
-//    options: DefaultFirebaseOptions.currentPlatform,
-// );
+/// await Firebase.initializeApp(
+///   options: DefaultFirebaseOptions.currentPlatform,
+/// );
 /// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for android - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -52,13 +49,21 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDbDcN1rHB6nBKkA90pJdg4vxt-cu6lEY4',
-    appId: '1:1070004515182:web:079ecb7f8c852cf2de517f',
-    messagingSenderId: '1070004515182',
-    projectId: 'localroots-da508',
-    authDomain: 'localroots-da508.firebaseapp.com',
-    storageBucket: 'localroots-da508.appspot.com',
-    measurementId: 'G-JMSSKTNY2S',
+  static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'AIzaSyC2Ku_iNqZsPHkfRvhovdB7ziCAM-7wC38',
+    appId: '1:329850816884:android:710df41cce96474a4b0421',
+    messagingSenderId: '329850816884',
+    projectId: 'localroots-c9e7c',
+    storageBucket: 'localroots-c9e7c.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyA5z_fdJd1tK-SXx4k6dJu9UCO9qjANhvk',
+    appId: '1:329850816884:ios:8ca5692604eb99b44b0421',
+    messagingSenderId: '329850816884',
+    projectId: 'localroots-c9e7c',
+    storageBucket: 'localroots-c9e7c.appspot.com',
+    iosClientId: '329850816884-6tf75p9ihdl9vpj6gsjf61fj70n4mp8l.apps.googleusercontent.com',
+    iosBundleId: 'com.6amtech.emarketDeliveryBoy',
   );
 }

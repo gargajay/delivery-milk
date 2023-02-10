@@ -2,9 +2,10 @@ import 'package:grocery_delivery_boy/data/model/response/language_model.dart';
 import 'package:grocery_delivery_boy/utill/images.dart';
 
 class AppConstants {
-  static const String APP_NAME = 'GroFresh Delivery Boy';
+  static const String APP_NAME = 'Localroots Delivery Boy';
   static const double APP_VERSION = 6.0;
-  static const String BASE_URL = 'http://leadenmilk.rjaytech.com';
+
+  static const String BASE_URL = 'https://localroots.co.in';
   static const String PROFILE_URI = '/api/v1/delivery-man/profile?token=';
   static const String CONFIG_URI = '/api/v1/config';
   static const String LOGIN_URI = '/api/v1/auth/delivery-man/login';

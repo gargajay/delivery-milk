@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "1070004515182",
-    "project_id": "localroots-da508",
-    "storage_bucket": "localroots-da508.appspot.com"
+    "project_number": "329850816884",
+    "project_id": "localroots-c9e7c",
+    "storage_bucket": "localroots-c9e7c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1070004515182:android:0b89eaa3fcca0897de517f",
+        "mobilesdk_app_id": "1:329850816884:android:710df41cce96474a4b0421",
         "android_client_info": {
-          "package_name": "com.u6amtech.grocery_delivery_boy"
+          "package_name": "com.rjaytech.localroots_delivery_boy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1070004515182-1vlu3vpthh72m4kreabj7qo4fs8vhhv7.apps.googleusercontent.com",
+          "client_id": "329850816884-kdcp2sbtho9s2a5b6jb4v856o7g615o3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOa_X6_f9_eVGG50i3UfAKJz9pC51QlOY"
+          "current_key": "AIzaSyC2Ku_iNqZsPHkfRvhovdB7ziCAM-7wC38"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1070004515182-1vlu3vpthh72m4kreabj7qo4fs8vhhv7.apps.googleusercontent.com",
+              "client_id": "329850816884-kdcp2sbtho9s2a5b6jb4v856o7g615o3.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "1070004515182-eo2r1396s6cv06f42el6c4oobnsarbt6.apps.googleusercontent.com",
+              "client_id": "329850816884-6tf75p9ihdl9vpj6gsjf61fj70n4mp8l.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.6amtech.emarketDeliveryBoy"
